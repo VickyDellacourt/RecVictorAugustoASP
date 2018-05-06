@@ -55,6 +55,7 @@ label{
 /*--logo--*/
 .logo {
   float: left;
+  
 }
 .logo  a{
  display:block;
@@ -62,12 +63,19 @@ label{
 *{
     list-style:none;
 }
-.logo a h1 {
+.logo a {
     font-size: 2em;
     font-weight: 700;
     color: #fff;
-    background: #464646;
-    padding: 0.2em 0.5em;
+    background: url(../Content/images/Logo.png);
+    background-size: auto auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 120px;
+    min-width: 171px;
 }
 .logo  a h1:hover{
  text-decoration:none;
